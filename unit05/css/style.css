@@ -1,0 +1,127 @@
+* {
+    font-family: arial;
+}
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.header, .middle {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#title, .icon-cancel {
+    font-size: 25px;
+}
+
+.icon-cancel {
+    float: right;
+    color: gray;
+}
+
+.clearboth {
+    clear: both;
+}
+
+.btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn_fb {
+    margin-top: 30px;
+    background: #088bf0;
+}
+
+.btn_tw {
+    background: #7bdaff;
+}
+
+.middle input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px gray solid;
+}
+
+.middle p {
+    margin-top: 10px;
+}
+
+.middle p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.footer {
+    width: 100%;
+    background: #d2d1d1;
+    border-top: 1px gray solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer .content {
+    width: 90%;
+    margin: 0 auto;
+}
+.footer .left {
+    width: 75%;
+    float: left;
+}
+
+.footer .right {
+    width: 25%;
+    float: right;
+}
+
+.footer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#btn_login {
+    width: 80px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    background: #bb3939;
+    border: 1px #bb3939 solid;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#btn_login:hover {
+    cursor: pointer;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none !important;
+    border: 1px solid #7bdaff;
+    box-shadow: 0 0 10px #7bdaff;
+}
+
+
+
+
+
+
+
+
