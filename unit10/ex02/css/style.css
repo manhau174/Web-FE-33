@@ -1,0 +1,13 @@
+.check {
+    background: green;
+    color: white;
+}
+
+.unCheck {
+    background: white;
+    color: black;
+}
+
+tr td {
+    cursor: pointer;
+}

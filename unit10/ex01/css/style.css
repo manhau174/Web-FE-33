@@ -1,0 +1,42 @@
+.container {
+            width: 80%;
+            margin: 0 auto;
+            background: #e0dede;
+            position: relative;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            display: inline-block;
+        }
+        .content {
+            width: 100%;
+            position: absolute;
+            background: red;
+            color: white;
+            display: none;
+            left: 0;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .menu {
+            display: inline-block;
+            width: 70px;
+            height: 20px;
+            text-decoration: none;
+            color: white;
+            background: green;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .menu-active {
+            background: red;
+        }
